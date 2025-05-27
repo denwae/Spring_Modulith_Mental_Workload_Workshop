@@ -8,9 +8,11 @@ Eine Unternehmensgruppe will eine HR-Anwendung entwickeln. In einem ersten Proto
 
 ![object_diagram.png](object_diagram.png)
 
-Unternehmen haben immer einen Namen und eine Adresse.
+Unternehmen haben immer einen Namen und eine Adresse. Ein Administrator kann nachträglich hinzugefügt werden. Im Fall, dass der Administrator eines Unternehmens kündigt und aus dem System gelöscht wird, muss er auch als Administrator gelöscht werden. Ein neuer Administrator kann nachträglich neu hinzugefügt werden.
 
-Angestellte müssen einen Vornamen und Nachnamen, eine Mailadresse im Format `<Vorname>.<Nachname>@mail.com` und ein Geburtsdatum haben.
+Angestellte müssen einen Vornamen und Nachnamen, eine Mailadresse im Format `<Vorname>.<Nachname>@mail.com` und ein Geburtsdatum haben. Angestellte sind immer bei einem der Töchterunternehmen eingestellt.
+
+In der Geschichte der Unternehmensgruppe kam es bereits vor, dass unterschiedliche Töchterunternehmen zusammengelegt wurden. In dem Fall muss das Unternehmen aus der Anwendung gelöscht und alle Angestellten in das neue Unternehmen transferiert werden. 
 
 Für diesen Prototyp ist eine Authentifizierung und Autorisierung nicht nötig.
 ## Aufgabe
