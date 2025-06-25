@@ -1,4 +1,4 @@
-# Spring Modulith Workshop
+# Workshop - Spring Modulith: HR Anwendung
 
 Das ist der zweite Workshop für die Auswertung des Mental Workload auf die Entwickler bei der Entwicklung mit und ohne Spring Modulith. In diesem Workshop wird der unten beschriebene Use Case mit [Spring Modulith](https://docs.spring.io/spring-modulith/reference/index.html) und [JMolecules](https://github.com/xmolecules/jmolecules) implementiert.
 
